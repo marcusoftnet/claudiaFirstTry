@@ -1,0 +1,27 @@
+{
+  "name": "firstTry",
+  "version": "1.0.0",
+  "description": "My first Lambda function",
+  "main": "index.js",
+  "files": ["*.js"],
+  "scripts": {
+    "test": "echo \"No tests yet\"",
+    "start": "node index.js",
+    "claudia:create" : "claudia create --name firstTryGreeter2 --region us-west-2 --api-module index",
+    "claudia:update" : "claudia update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "lambda",
+    "claudiajs"
+  ],
+  "author": "Marcus Hammarberg @marcusoftnet",
+  "license": "MIT",
+  "dependencies": {
+    "claudia-api-builder": "^1.0.2",
+    "superb": "^1.3.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "firstTryGreeter2-executor",
+    "name": "firstTryGreeter2",
+    "region": "us-west-2"
+  },
+  "api": {
+    "id": "gifscl5xub",
+    "module": "index"
+  }
+}
